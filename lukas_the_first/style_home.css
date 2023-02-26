@@ -1,0 +1,55 @@
+/* hero-image, sectiom 1 */
+.hero-image{
+    background: url("image/space-bck3.jpg") no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-inline: 1vw;
+}
+
+.head-parag-hero{
+    text-align: center;
+    color: var(--light-main-clr);
+    margin: 0px 10px 50px;
+}
+.parag-hero{
+    text-align: center;
+    color: var(--light-main-clr);
+    margin-inline: 15vw;
+}
+span{
+    position: relative;
+    margin-left: 10px;
+}
+span::before{
+    visibility: hidden;
+    position: absolute;
+    content: "";
+    background-image:url(image/fireplace-love.gif);
+    background-size: 100% 100%;  
+    height: 150%;
+    width: 150%;
+    z-index: 9999;
+    top: -50%;
+}
+span:hover::before{
+    visibility: visible;
+}
+.button-excel button{
+    margin: 40px 10px 0px;
+}
+.collateral{
+    padding-block: 2vh;
+    padding-inline: 1vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    justify-content: center;
+}
+.coitem{
+    margin-inline: 2vw;
+    padding: 12px 50px;
+}
+.coitem ion-icon{
+    font-size: 30px;
+}
+/* end here */

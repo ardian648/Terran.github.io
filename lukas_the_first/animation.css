@@ -1,0 +1,151 @@
+
+
+/* button */
+.fine-normsp{
+    border: 1px solid var(--yellow-main-clr);
+    background-color: var(--black-main-clr);
+    padding: 8px 38px;
+    transition: var(--trans-normsp);
+}
+.fine-normsp:hover{
+    border: 1px solid var(--yellow-main-clr);
+    background-color: var(--yellow-main-clr);
+}
+.fine-normsp:hover .link-white{
+    color: var(--black-main-clr);
+}
+
+.alter-normsp{
+    border: 1px solid transparent;
+    background-color: var(--yellow-main-clr);
+    padding: 8px 38px;
+    transition: var(--trans-normsp);
+}
+.alter-normsp:hover{
+    border: 1px solid var(--yellow-main-clr) ;
+    background-color: var(--black-main-clr);
+    transition: var(--trans-normsp);
+}
+.alter-normsp:hover .link-black{
+    color: var(--light-main-clr);
+}
+/* end */
+
+/* track-in-expand */
+.track-in-expand{
+    animation: tracking-in-expand 1600ms cubic-bezier(0.215, 0.610, 0.355, 1.000) both; 
+}
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -4rem;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* end here */
+
+/* opacity min */
+.navitem:hover,
+.icons:hover,
+.headitem-ser:hover{
+    opacity: 0.4;
+    transition: var(--trans-normsp);
+}
+/* end here */
+
+/* border - anim */
+@keyframes borderline{
+    0%{
+        border-block-end: 1px solid white;
+        padding-left: 0px;
+    }
+    1%{
+        border-block-end: 1px solid white;
+        padding-left: -2%;
+    }
+    50%{
+        border-block-end: 1px solid white;
+        padding-left: 2%;
+    }
+    100%{
+        border-block-end: 1px solid white;
+        padding-left: 1%;
+    }
+}
+.navitem:hover{
+    animation: borderline 500ms linear forwards; 
+}
+/* end here */
+
+/* color-backgr - anim */
+@keyframes color-backgr{
+    0%{
+        background: linear-gradient(120deg, red 50% left, white 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    10%{
+        background: linear-gradient(120deg, white 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    20%{
+        background: linear-gradient(120deg, red 10%, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    35%{
+        background: linear-gradient(120deg, red 20%, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    40%{
+        background: linear-gradient(120deg, red 30%, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50%{
+        background: linear-gradient(120deg, red 40%, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60%{
+        background: linear-gradient(120deg, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    70%{
+        background: linear-gradient(120deg, red 35%, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    90%{
+        background: linear-gradient(120deg, red 15%, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: linear-gradient(120deg, white 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+/* end here */
+/* line - jalan */
+@keyframes linejalan{
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.hori1{
+    animation: linejalan 2400ms cubic-bezier(0.215, 0.610, 0.355, 1.000) both; 
+}
+/* end here */
