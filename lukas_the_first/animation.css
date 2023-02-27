@@ -2,29 +2,25 @@
 
 /* button */
 .fine-normsp{
-    border: 1px solid var(--yellow-main-clr);
+    box-sizing: padding-box;
     background-color: var(--black-main-clr);
     padding: 8px 38px;
     transition: var(--trans-normsp);
 }
 .fine-normsp:hover{
-    border: 1px solid var(--yellow-main-clr);
     background-color: var(--yellow-main-clr);
 }
 .fine-normsp:hover .link-white{
     color: var(--black-main-clr);
 }
-
 .alter-normsp{
-    border: 1px solid transparent;
+    box-sizing: padding-box;
     background-color: var(--yellow-main-clr);
     padding: 8px 38px;
     transition: var(--trans-normsp);
 }
 .alter-normsp:hover{
-    border: 1px solid var(--yellow-main-clr) ;
     background-color: var(--black-main-clr);
-    transition: var(--trans-normsp);
 }
 .alter-normsp:hover .link-black{
     color: var(--light-main-clr);
