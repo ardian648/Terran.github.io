@@ -1,11 +1,11 @@
-/* hero-image, sectiom 1 */
+/* hero-image, section 1 */
 .hero-image{
     background: url("image/space-bck3.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
     height: 100vh;
-    gap: 40px;
     position: relative;
+    gap: 40px;
 }
 .head-parag-hero{
     text-align: center;
@@ -65,4 +65,22 @@ span:hover::before{
 .collateral-child-3{
     background-image: url(image/star_wars_3.jpg);
 }
+/* end here */
+
+/* villain-image, section 2 */
+.villain-image{
+    background: url("image/white-bck.jpg") no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
 /* end here */
