@@ -64,7 +64,7 @@
     }
     100%{
         border-block-end: 1px solid white;
-        padding-inline: 40px;
+        padding-inline: 12%;
     }
 }
 .navitem a:hover{
