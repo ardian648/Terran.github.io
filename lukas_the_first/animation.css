@@ -68,7 +68,7 @@
     }
 }
 .navitem a:hover{
-    animation: borderline 400ms linear forwards; 
+    animation: borderline 350ms linear forwards; 
 }
 /* end here */
 
