@@ -72,18 +72,24 @@ span:hover::before{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    padding-inline: 2vw;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 .villain-motive{
     text-align: center;
     width: 40%;
+    gap: 1rem;
 }
 .head-parag-villain{
     font-size: 4rem;
 }
 .parag-villain{
-
+    margin-inline: 10px;
 }
-
+.villain-motive button{
+    align-self: center;
+}
 
 
 
