@@ -4,13 +4,12 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-    padding-inline: 1vw;
+    gap: 40px;
+    position: relative;
 }
-
 .head-parag-hero{
     text-align: center;
     color: var(--light-main-clr);
-    margin: 0px 10px 50px;
 }
 .parag-hero{
     text-align: center;
@@ -27,29 +26,42 @@ span::before{
     content: "";
     background-image:url(image/fireplace-love.gif);
     background-size: 100% 100%;  
-    height: 150%;
-    width: 150%;
+    height: 100%;
+    width: 100%;
     z-index: 9999;
-    top: -50%;
+    inset: 0;
+    margin: auto;
 }
 span:hover::before{
     visibility: visible;
 }
 .button-excel button{
-    margin: 40px 10px 0px;
+    margin: 0px 10px 0px;
 }
 .collateral{
-    padding-block: 2vh;
-    padding-inline: 1vw;
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
+    padding-block: .5vh;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 .coitem{
-    margin-inline: 2vw;
-    padding: 12px 50px;
+    opacity: 0.8;
+    margin-inline: .4vw;
+    aspect-ratio: 22 / 11;
+    background-position: center;
+    background-size: cover;
 }
-.coitem ion-icon{
-    font-size: 30px;
+.coitem p{
+    align-self: center;
+    padding-inline: 10px;
+}
+.collateral-child-1{
+    background-image: url(image/star_wars_1.jpg);
+}
+.collateral-child-2{
+    background-image: url(image/star_wars_2.jpg);
+}
+.collateral-child-3{
+    background-image: url(image/star_wars_3.jpg);
 }
 /* end here */

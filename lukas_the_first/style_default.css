@@ -71,6 +71,10 @@ table {
 ::-webkit-scrollbar-thumb:hover {
 	background: var(--light-main-clr);
 }
+::selection {
+	color: var(--black-main-clr);
+	background: var(--light-main-clr);
+  }
 .flex-row{
 	display: flex;
 	flex-direction: row;
