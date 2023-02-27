@@ -51,7 +51,7 @@
 .navitem:hover,
 .icons:hover,
 .headitem-ser:hover{
-    opacity: 0.4;
+    opacity: 0.6;
     transition: var(--trans-normsp);
 }
 /* end here */
@@ -60,22 +60,14 @@
 @keyframes borderline{
     0%{
         border-block-end: 1px solid white;
-        padding-left: 0px;
-    }
-    1%{
-        border-block-end: 1px solid white;
-        padding-left: -2%;
-    }
-    50%{
-        border-block-end: 1px solid white;
-        padding-left: 2%;
+        padding-inline: 0px;
     }
     100%{
         border-block-end: 1px solid white;
-        padding-left: 1%;
+        padding-inline: 40px;
     }
 }
-.navitem:hover{
+.navitem a:hover{
     animation: borderline 500ms linear forwards; 
 }
 /* end here */
