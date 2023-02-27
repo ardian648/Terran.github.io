@@ -14,7 +14,7 @@
 .parag-hero{
     text-align: center;
     color: var(--light-main-clr);
-    margin-inline: 15vw;
+    margin-inline: 17vw;
 }
 span{
     position: relative;
@@ -54,6 +54,7 @@ span:hover::before{
 .coitem p{
     align-self: center;
     padding-inline: 10px;
+    font-size: 1.4rem;
 }
 .collateral-child-1{
     background-image: url(image/star_wars_1.jpg);

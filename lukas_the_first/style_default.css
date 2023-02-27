@@ -109,6 +109,7 @@ body{
 	text-decoration: none;
 	color: var(--light-main-clr);
 	font-family: var(--main-font);
+	font-size: 1.6rem;
 	transition: var(--transit-fastsp);
 }
 .link-black{

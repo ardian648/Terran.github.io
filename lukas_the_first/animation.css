@@ -68,7 +68,7 @@
     }
 }
 .navitem a:hover{
-    animation: borderline 500ms linear forwards; 
+    animation: borderline 400ms linear forwards; 
 }
 /* end here */
 
@@ -129,13 +129,14 @@
 /* line - jalan */
 @keyframes linejalan{
     0%{
-        width: 10px;
+        width: 0px;
     }
     100%{
         width: 100%;
     }
 }
-.hori1{
+.hori1,
+.hori2{
     animation: linejalan 2400ms cubic-bezier(0.215, 0.610, 0.355, 1.000) both; 
 }
 /* end here */
