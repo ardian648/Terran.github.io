@@ -3,7 +3,7 @@
     background: url("image/space-bck3.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     position: relative;
     gap: 40px;
 }
@@ -11,6 +11,8 @@
     text-align: center;
 }
 .parag-hero{
+    font-size: 16px;
+    text-indent: 2rem;
     text-align: center;
     margin-inline: 17vw;
 }
@@ -67,6 +69,7 @@
     font-size: 4rem;
 }
 .parag-villain{
+    font-size: 16px;
     margin-inline: 1rem;
 }
 .villain-motive button{
@@ -76,7 +79,7 @@
 .villain-reason{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    grid-gap: 1rem;
 }
 .card-1{
     grid-column: 1 / 3;

@@ -11,7 +11,7 @@
     border: 1px solid var(--black-main-clr);
     background-color: transparent;
 }
-.fine-normsp:hover .link-white{
+.fine-normsp:hover .link-def{
     color: var(--black-main-clr);
 }
 .alter-normsp{
@@ -24,7 +24,7 @@
     border: 1px solid var(--light-main-clr) ;
     background-color: transparent;
 }
-.alter-normsp:hover .link-black{
+.alter-normsp:hover .link-def-blc{
     color: var(--light-main-clr);
 }
 /* end */

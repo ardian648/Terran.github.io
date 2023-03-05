@@ -98,43 +98,49 @@ table {
 body{
 	background-color: var(--black-main-clr);
 }
-.link-white{
+.link-def,
+.link-def-blc{
 	text-decoration: none;
-	color: var(--light-main-clr);
+	transition: var(--transit-fastsp);
 	font-family: var(--link-font);
-	font-size: 1.8rem;
-	transition: var(--transit-fastsp);
-}
-.link-white-mf{
-	text-decoration: none;
-	color: var(--light-main-clr);
-	font-family: var(--main-font);
-	font-size: 1.6rem;
-	transition: var(--transit-fastsp);
-}
-.link-black{
-	text-decoration: none;
-	color: var(--black-main-clr);
-	font-family: var(--link-font);
-	font-size: 1.8rem;
-	transition: var(--transit-fastsp);
-}
-.link-black-mf{
-	text-decoration: none;
-	color: var(--black-main-clr);
-	font-family: var(--main-font);
 	font-size: 1.4rem;
-	transition: var(--transit-fastsp);
 }
+.link-def{color: var(--light-main-clr);}
+.link-def-blc{color: var(--black-main-clr);}
 hr{
 	border: none;
     background-color: var(--light-main-clr);
     height: 1px;
 }
-
 .icons{
 	font-size: 22px;
 	color: var(--light-main-clr);
+}
+/* end here */
+
+/* text style */
+.text-parag-def{
+	font-family: var(--main-font);
+	color: var(--light-main-clr);
+	font-size: 1.6rem;
+}
+.text-head-def{
+	font-family: var(--logo-font);
+	color: var(--light-main-clr);
+	font-size: 4rem;
+}
+/* end here */
+
+/* division */
+.hori2{
+	border: 1px solid var(--light-alt-main-clr);
+}
+/* end here */
+
+/* embeded youtube video */
+.video-embed{
+	aspect-ratio: 16 / 9;
+	width: 720px;
 }
 /* end here */
 
@@ -153,7 +159,7 @@ header{
 .logo{
 	align-self: center;
 	font-family: var(--logo-font);
-	font-size: 5rem;
+	font-size: 6rem;
 }
 .headitem-ser a:nth-child(2){
 	align-self: center;
@@ -181,34 +187,4 @@ header{
 .hori1{
 	margin: 1rem 0px;
 }
-/* end here */
-
-/* text style */
-.text-parag-def{
-    font-family: var(--main-font);
-    font-size: 16px;
-	color: var(--light-main-clr);
-}
-.text-head-def{
-    font-family: var(--logo-font);
-    font-size: 5rem;
-	color: var(--light-main-clr);
-}
-/* end here */
-
-/* division */
-.hori2{
-	margin-block: 5rem 1rem;
-	border: 1px solid var(--light-alt-main-clr);
-}
-/* end here */
-
-/* embeded youtube video */
-.video-embed{
-	aspect-ratio: 16 / 9;
-	width: 720px;
-}
-
-
-
 /* end here */
