@@ -4,7 +4,7 @@
 .fine-normsp{
     border: 1px solid var(--black-main-clr);
     background-color: var(--black-main-clr);
-    padding: 10px 40px;
+    padding: 6px 35px;
     transition: var(--trans-normsp);
 }
 .fine-normsp:hover{
@@ -17,7 +17,7 @@
 .alter-normsp{
     border: 1px solid var(--light-main-clr);
     background-color: var(--light-main-clr);
-    padding: 10px 40px;
+    padding: 6px 35px;
     transition: var(--trans-normsp);
 }
 .alter-normsp:hover{

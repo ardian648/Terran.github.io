@@ -47,11 +47,11 @@ table {
 :root{
     font-size: 10px;
     --logo-font: 'Expletus Sans', cursive;
-    --head-font: 'Labrada', serif;
+    --link-font: 'kreon', serif;
     --main-font: 'Roboto', sans-serif;
-	--link-font: 'Phudu', cursive;
+	--head-font: 'Phudu', cursive;
     --black-main-clr: #050404;
-    --black-alt-main-clr: #221d1d;
+    --black-alt-main-clr: rgba(43, 42, 42, 0.6);
     --light-main-clr: #fff;
     --light-alt-main-clr: #b4acac;
     --yellow-main-clr: #FFE81F;
@@ -103,7 +103,7 @@ body{
 	text-decoration: none;
 	transition: var(--transit-fastsp);
 	font-family: var(--link-font);
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
 .link-def{color: var(--light-main-clr);}
 .link-def-blc{color: var(--black-main-clr);}
@@ -125,9 +125,9 @@ hr{
 	font-size: 1.6rem;
 }
 .text-head-def{
-	font-family: var(--logo-font);
+	font-family: var(--head-font);
 	color: var(--light-main-clr);
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 /* end here */
 
@@ -157,9 +157,11 @@ header{
 	margin:0px 0.5rem 0px 1.5rem;
 }
 .logo{
+	text-decoration: none;
 	align-self: center;
 	font-family: var(--logo-font);
 	font-size: 6rem;
+	color: var(--light-main-clr);
 }
 .headitem-ser a:nth-child(2){
 	align-self: center;
