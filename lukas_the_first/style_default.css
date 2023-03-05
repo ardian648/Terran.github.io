@@ -129,6 +129,11 @@ hr{
 	color: var(--light-main-clr);
 	font-size: 3.5rem;
 }
+.text-subhead-def{
+	font-family: var(--head-font);
+	color: var(--light-main-clr);
+	font-size: 2rem;
+}
 /* end here */
 
 /* division */
