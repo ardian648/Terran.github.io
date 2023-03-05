@@ -113,7 +113,7 @@ hr{
     height: 1px;
 }
 .icons{
-	font-size: 22px;
+	font-size: 2.2rem;
 	color: var(--light-main-clr);
 }
 /* end here */
@@ -139,13 +139,15 @@ hr{
 /* division */
 .hori2{
 	border: 1px solid var(--light-alt-main-clr);
+	margin: 1rem 0px;
+
 }
 /* end here */
 
 /* embeded youtube video */
 .video-embed{
 	aspect-ratio: 16 / 9;
-	width: 720px;
+	width: 1920px;
 }
 /* end here */
 
