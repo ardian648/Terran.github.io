@@ -139,6 +139,6 @@ span:hover::before{
   }
 
 /* end here */
-.modal{
-    animation: tilt-in-top-1 600ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.video-embed{
+    animation: tilt-in-top-1 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }

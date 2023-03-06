@@ -117,7 +117,7 @@
         background-color: var(--black-alt-main-clr);
         width: 100%;
     }
-    .batch > :nth-child(2){
+    .batch > :nth-child(1){
         place-content: center;
         display: grid;
         background-position: center;
@@ -125,6 +125,7 @@
         width: 100%;
         aspect-ratio: 16 / 9;
         border-radius: 1rem 1rem 0px 0rem ;
+        z-index: 3;
     }
     .batch > :last-child{
         text-align: center;
@@ -138,20 +139,7 @@
     .play-2{background-image: url(image/red-bck.jfif);}
     .play-3{background-image: url(image/red-bck-3.jfif);}
     .play-4{background-image: url(image/blue-bck-3.jfif);}
-    .modal{
-        display: none;
-        background-color: rgba(0, 0, 0, 0.4);
-        inset: 0;
-        width: 100%;
-        height: 100%;
-    }
-    #video-stell-1:target .play-1{
-        display: block;
-        position: absolute;
-        width: 80%;
-        place-items: start center;
-        z-index: 9999;
-    }
+
     /* end here */
 
 
