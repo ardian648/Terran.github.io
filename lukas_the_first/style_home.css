@@ -123,9 +123,8 @@
         background-position: center;
         background-size: cover;
         width: 100%;
-        aspect-ratio: 1 / 1.5;
+        height: 30vh;
         border-radius: 1rem 1rem 0px 0rem ;
-        z-index: 3;
     }
     .batch > :last-child{
         text-align: center;
@@ -135,7 +134,7 @@
     .stell-play-btn{
         font-size: 500%;
     }
-    .play-1{background-image: url(image/red-bck-2.jfif);}
+    .play-1{background-image: url(image/red-bck-2a.jfif);}
     .play-2{background-image: url(image/red-bck.jfif);}
     .play-3{background-image: url(image/red-bck-3.jfif);}
     .play-4{background-image: url(image/blue-bck-3.jfif);}
@@ -143,8 +142,13 @@
         object-fit: cover;
     }
     /* end here */
-
-
+/* anti-hero | paragraph, section 3 */
+.anti-hero{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
 
 
 /* end here */
