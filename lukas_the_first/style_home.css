@@ -144,10 +144,14 @@
     /* end here */
 /* anti-hero | paragraph, section 3 */
 .anti-hero{
-    height: 90vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    grid-gap: 1rem;
+    height: 90vh;
+    padding-inline: 3vw;
+}
+.caspar{
+    grid-column: 1 / 5 ;
 }
 
 

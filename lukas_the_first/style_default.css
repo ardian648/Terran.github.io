@@ -112,8 +112,20 @@ hr{
     background-color: var(--light-main-clr);
     height: 1px;
 }
-.icons{
+.icons-small{
+	font-size: 1.2rem;
+	color: var(--light-main-clr);
+}
+.icons-med{
 	font-size: 2.2rem;
+	color: var(--light-main-clr);
+}
+.icons-big{
+	font-size: 3.2rem;
+	color: var(--light-main-clr);
+}
+.icons-large{
+	font-size: 4.2rem;
 	color: var(--light-main-clr);
 }
 /* end here */
@@ -136,14 +148,10 @@ hr{
 }
 /* end here */
 
-/* division | well contradiction*/
+/* division | well, contradiction*/
 /* .hori2{
 	margin: 1rem 0px ;
 } */
-/* end here */
-
-/* embeded youtube video */
-
 /* end here */
 
 /* header */
@@ -195,7 +203,7 @@ header{
 
 /* modal | video-embeded*/
 .modal{
-	display: none;
+	visibility: hidden;
 	position: fixed;
 	background-color: rgba(0, 0, 0, 0.6);
 	inset: 0;
@@ -212,16 +220,16 @@ header{
 	font-size: 500%;
 }
 #video-stell-1:target{
-	display: flex;
+	visibility: visible;
 }
 #video-stell-2:target {
-	display: flex;
+	visibility: visible;
 }
 #video-stell-3:target {
-	display: flex;
+	visibility: visible;
 }
 #video-stell-4:target {
-	display: flex;
+	visibility: visible;
 }
 
 
