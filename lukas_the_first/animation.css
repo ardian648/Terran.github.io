@@ -104,8 +104,6 @@
 /* gif - kinder joy suprise */
 span{
     position: relative;
-    margin-left: 10px;
-    border-bottom: 1px dashed var(--light-alt-main-clr);
 }
 span::before{
     visibility: hidden;

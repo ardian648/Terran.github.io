@@ -134,17 +134,17 @@ hr{
 .text-parag-def{
 	font-family: var(--main-font);
 	color: var(--light-main-clr);
-	font-size: 1.6rem;
+	font-size: 150%;
 }
 .text-head-def{
 	font-family: var(--head-font);
 	color: var(--light-main-clr);
-	font-size: 3.5rem;
+	font-size: 300%;
 }
 .text-subhead-def{
 	font-family: var(--head-font);
 	color: var(--light-main-clr);
-	font-size: 2rem;
+	font-size: 200%;
 }
 /* end here */
 

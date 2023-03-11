@@ -4,6 +4,7 @@
     background-position: center;
     background-size: cover;
     height: 95vh;
+    width: 100%;
     position: relative;
     gap: 3rem;
 }
@@ -11,8 +12,6 @@
     text-align: center;
 }
 .parag-hero{
-    font-size: 16px;
-    text-indent: 2rem;
     text-align: center;
     margin-inline: 17vw;
 }
@@ -24,6 +23,7 @@
     justify-content: center;
     position: absolute;
     bottom: 0;
+    width: 33%;
 }
 .coitem{
     opacity: 0.8;
@@ -31,6 +31,7 @@
     aspect-ratio: 2 / 1;
     background-position: center;
     background-size: cover;
+    width: 100%;
 }
 .coitem p{
     align-self: center;
@@ -146,13 +147,15 @@
 .anti-hero{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 1rem 1rem;
     height: 90vh;
     padding-inline: 3vw;
+}
+.three-kings{
+    place-self: center;
 }
 .caspar{
     grid-column: 1 / 5 ;
 }
-
 
 /* end here */
