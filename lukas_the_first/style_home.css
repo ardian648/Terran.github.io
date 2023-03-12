@@ -1,19 +1,25 @@
 /* hero-image, section 1 */
 .hero-image{
-    background: url("image/space-bck3.jpg") no-repeat fixed;
+    background: url("image/earth-bck-2.jpg") no-repeat ;
     background-position: center;
     background-size: cover;
-    height: 95vh;
-    width: 100%;
-    position: relative;
-    gap: 3rem;
+    height: 100vh;
+    justify-content: space-between;
+    padding-inline: 10vw;
+    border-radius: 1rem;
+}
+.hero-motive{
+    align-self: flex-start;
+    width: 40%;
+    gap: 2rem;
+    padding-top: 30vh;
 }
 .head-parag-hero{
     text-align: center;
 }
 .parag-hero{
-    text-align: center;
-    margin-inline: 17vw;
+    text-indent: 1rem;
+    text-align: start;
 }
 .button-excel button{
     margin: 0px 10px 0px;
@@ -21,9 +27,7 @@
 .collateral{
     padding: .9vh;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
-    width: 33%;
+    width: 30vw;
 }
 .coitem{
     opacity: 0.8;
@@ -47,25 +51,27 @@
 .collateral-child-3{
     background-image: url(image/star_wars_3.jpg);
 }
-/* end here */
+/* end here | edit */
 
 /* villain-image, section 2 */
 .villain-image{
-    background: url("image/white-bck.jpg") no-repeat fixed;
+    background: url("image/stellaris-bck.jpg") no-repeat ;
     background-position: center;
+    height: 150vh;
     background-size: cover;
     padding-inline: 3vw;
     padding-block: 5vh;
-    gap: 4rem;
+    gap: 2rem;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 1rem;
 }
 /* villain motive */
 .villain-motive{
-    align-self: flex-start;
+    align-self: flex-end;
     text-align: center;
     width: 40%;
-    gap: 1rem;
+    gap: 2rem;
 }
 .parag-villain{
     margin-inline: 1rem;
@@ -77,7 +83,7 @@
 .villain-reason{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem 1.5rem;
+    grid-gap: 6vh 1.5rem;
 }
 .grid-img{
     width: 40%;
@@ -94,46 +100,53 @@
     }
     .card-1,
     .card-2{
-        background-color: var(--black-alt-main-clr);
+        background-color: var(--light-alt-main-clr);
+        backdrop-filter: saturate(150%) blur(3%);
         border-radius: 1rem;
     }
     .card-text{
         gap: 1rem;
         padding-inline: 1rem;
     }
-    .card-text > :first-child {
+    .card-text h1{
         text-align: center;
     }
-    .card-text > :nth-child(2) {
+    .card-text p{
         font-size: 1.2rem;
     }
-    .card-text > :last-child {
+    .card-text a{
         font-size: 1.3rem;
         align-self: flex-end;
     }
     /* my first iframe - grid */
     .batch{
-        place-self: center space-between;
+        place-self: center;
         border-radius: 1rem;
-        background-color: var(--black-alt-main-clr);
+        background-color: var(--light-alt-main-clr);
+        backdrop-filter: saturate(150%) blur(3%);
         width: 100%;
+        height: 45vh;
+        padding-bottom: 3vh;
     }
-    .batch > :nth-child(1){
+    .batch > :first-child{
         place-content: center;
         display: grid;
         background-position: center;
         background-size: cover;
         width: 100%;
-        height: 30vh;
+        height: 70%;
         border-radius: 1rem 1rem 0px 0rem ;
     }
-    .batch > :last-child{
+    .card-text-2{
+        height: 30%;
+        gap: .5rem;
+    }
+    .batch h1{
         text-align: center;
         font-size: 1.6rem;
-        padding-block: 2rem;
     }
-    .stell-play-btn{
-        font-size: 500%;
+    .batch p{
+        text-align: center;
     }
     .play-1{background-image: url(image/red-bck-2a.jfif);}
     .play-2{background-image: url(image/red-bck.jfif);}
@@ -144,18 +157,6 @@
     }
     /* end here */
 /* anti-hero | paragraph, section 3 */
-.anti-hero{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem 1rem;
-    height: 90vh;
-    padding-inline: 3vw;
-}
-.three-kings{
-    place-self: center;
-}
-.caspar{
-    grid-column: 1 / 5 ;
-}
+
 
 /* end here */
