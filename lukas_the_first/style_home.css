@@ -5,24 +5,20 @@
     background-size: cover;
     height: 100vh;
     justify-content: space-between;
-    padding-inline: 10vw;
+    padding-inline: 5vw;
     border-radius: 1rem;
 }
 .hero-motive{
     align-self: flex-start;
-    width: 40%;
+    width: 35%;
     gap: 2rem;
-    padding-top: 30vh;
+    padding-top: 32vh;
 }
 .head-parag-hero{
     text-align: center;
 }
 .parag-hero{
-    text-indent: 1rem;
-    text-align: start;
-}
-.button-excel button{
-    margin: 0px 10px 0px;
+    text-align: center;
 }
 .collateral{
     padding: .9vh;
@@ -101,7 +97,6 @@
     .card-1,
     .card-2{
         background-color: var(--light-alt-main-clr);
-        backdrop-filter: saturate(150%) blur(3%);
         border-radius: 1rem;
     }
     .card-text{
@@ -123,7 +118,6 @@
         place-self: center;
         border-radius: 1rem;
         background-color: var(--light-alt-main-clr);
-        backdrop-filter: saturate(150%) blur(3%);
         width: 100%;
         height: 45vh;
         padding-bottom: 3vh;
@@ -157,6 +151,34 @@
     }
     /* end here */
 /* anti-hero | paragraph, section 3 */
-
-
+.anti-hero{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+.anti-hero-motive{
+    display: none;
+    gap: 2rem;
+    position: absolute;
+    inset: 0 0 ;
+    text-align: center;
+    padding-inline: 25vw;
+}
+.anti-hero-motive:target{
+    display: flex;
+}
+.anti-hero-motive h1{
+    font-size: 3.5rem;
+    margin-top: 1rem;
+}
+.tarlink{
+    position: absolute;
+    gap: 2rem;
+    inset: auto 0 0;
+    margin-bottom: 10vh;
+}
+.tarlink a{
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--light-main-clr);
+}
 /* end here */

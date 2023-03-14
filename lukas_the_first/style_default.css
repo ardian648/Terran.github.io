@@ -106,9 +106,10 @@ body{
 .link-def{color: var(--light-main-clr);}
 .link-def-blc{color: var(--black-main-clr);}
 .hori2{
+	width: 94%;
 	border: none;
     height: 1px;
-	margin: 1rem 0px;
+	margin: 1rem auto;
     background-color: var(--light-main-clr);
 }
 .hori3{
@@ -139,39 +140,34 @@ body{
 .text-parag-def{
 	font-family: var(--main-font);
 	color: var(--light-main-clr);
-	font-size: 150%;
+	font-size: 1.5rem;
+	line-height: 1.3;
 }
 .text-head-def{
 	font-family: var(--head-font);
 	color: var(--light-main-clr);
-	font-size: 300%;
+	font-size: 3rem;
 }
 .text-subhead-def{
 	font-family: var(--head-font);
 	color: var(--light-main-clr);
-	font-size: 200%;
+	font-size: 2rem;
 }
 .text-parag-def-blc{
 	font-family: var(--main-font);
 	color: var(--black-main-clr);
-	font-size: 150%;
+	font-size: 1.5rem;
 }
 .text-head-def-blc{
 	font-family: var(--head-font);
 	color: var(--black-main-clr);
-	font-size: 300%;
+	font-size: 3rem;
 }
 .text-subhead-def-blc{
 	font-family: var(--head-font);
 	color: var(--black-main-clr);
-	font-size: 200%;
+	font-size: 2rem;
 }
-/* end here */
-
-/* division | well, contradiction*/
-/* .hori2{
-	margin: 1rem 0px ;
-} */
 /* end here */
 
 /* header */
@@ -207,6 +203,9 @@ header{
 /* end here */
 
 /* navigation */
+nav{
+	padding-inline: 8%;
+}
 .navlist{
     justify-content: space-evenly;
     align-items: center;
@@ -271,12 +270,12 @@ footer{
 	grid-area: orion-star;
 }
 .baltazar{
-	gap: 4rem;
+	gap: 6rem;
 	grid-area: baltazar;
-	place-self: center;
+	place-self: center start;
 }
 .baltazar div{
-	gap: .5rem;
+	gap: 1rem;
 }
 .baltazar p{
 	padding-bottom: .5rem;
@@ -301,22 +300,33 @@ footer{
 	transition: var(--trans-normsp);
 }
 .logo-com-1:hover{background-color: rgb(209, 5, 5); rotate: 180deg;}
-.logo-com-2:hover{background-color: rgb(79, 164, 248);}
+.logo-com-2:hover{background-color: #00acee ;}
 .logo-com-3:hover{background-color: rgb(32, 33, 34);}
 .logo-com-4:hover{background-color: rgb(112, 1, 177);}
 .logo-com-5:hover{background-color: rgb(209, 5, 124);}
 .melkior{
 	grid-area: melkior;
-	place-self: center;
+	place-self: center end;
 	background-color: var(--light-alt-main-clr);
-	width: 20vw;
+	width: 25vw;
+	gap: .2rem;
+	padding-block-end: 1rem;
+	border-radius: 1rem;
 }
-.melkior:first-child{
-	width: 10vw;
+.melkior > :first-child{
+	border-radius: 1rem 1rem 0px 0px;
+	width: 100%;
+	aspect-ratio: 2 / 1;
 	text-align: center;
 	border: none;
 }
+.melkior > :last-child{
+	margin-top: 2px;
+}
 .casper{
+	margin-top: 5vh;
+	border-top: 1px solid var(--light-main-clr);
+	padding-block: 1rem;
 	gap: 1rem;
 	grid-area: casper;
 }
@@ -324,8 +334,8 @@ footer{
 	margin-right: auto;
 }
 .casper a{
-	border-right: 1px solid var(--light-main-clr);
-	padding-right: 1rem;
+	border-left: 2px solid var(--light-main-clr);
+	padding-left: 1rem;
 }
 
 

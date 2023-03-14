@@ -89,15 +89,14 @@
 /* line - jalan */
 @keyframes linejalan{
     0%{
-        width: 0px;
+        width: 5%;
     }
     100%{
-        width: 87%;
+        width: 100%;
     }
 }
-.hori1,
-.hori2{
-    animation: linejalan 2400ms cubic-bezier(0.215, 0.610, 0.355, 1.000) both; 
+.hori1{
+    animation: linejalan 2400ms 700ms cubic-bezier(0.215, 0.610, 0.355, 1.000) both; 
 }
 /* end here */
 
@@ -133,8 +132,29 @@ span:hover::before{
     opacity: 1;
     }
   }
-
+  .video-embed{
+      animation: tilt-in-top-1 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
 /* end here */
-.video-embed{
-    animation: tilt-in-top-1 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+/*  */
+@keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1rem;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.anti-hero-motive{
+    animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+/* end here */
+
+
+
+
